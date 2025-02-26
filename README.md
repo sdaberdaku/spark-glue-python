@@ -44,7 +44,7 @@ Follow these instructions to build the Docker image:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/sebastiandaberdaku/spark-glue-python.git
+git clone https://github.com/sdaberdaku/spark-glue-python.git
 cd spark-glue-python
 docker build -t sdaberdaku/spark-glue-python:v3.5.1-python3.10.14 . --network host
 docker push sdaberdaku/spark-glue-python:v3.5.1-python3.10.14
